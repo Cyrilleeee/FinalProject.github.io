@@ -43,12 +43,22 @@ h1{
   border: 8px solid #800020;
   border-radius: 25px;
 }
-h2{
+h2 {
   font-family: 'Luxurious Roman', cursive;
-  font-weight: extrabold;
+  font-weight: bold; 
   text-align: center;
   font-size: 35px;
   color: #081770;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; 
+}
+h2::before,
+h2::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #848FA5;
 }
 p {
   font-family: 'Luxurious Roman', cursive;
@@ -80,4 +90,30 @@ footer{
   font-family: 'Luxurious Roman', cursive;
   font-size: 20px;
   letter-spacing: 3px;
+}
+.logo{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+h4{
+  font-family: 'MonteCarlo', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  color: #848FA5;
+  margin: 20px 0 10px 0;
+}
+h5{
+  font-family: 'MonteCarlo', cursive;
+  text-align: center;
+  font-size: 30px;
+  color: #848FA5;
+  margin: 10px 0;
+}
+.separator{
+  border-bottom: 2px solid #848FA5;
+  width: 100%;
+  margin: 300px 0 20px 0;
 }
