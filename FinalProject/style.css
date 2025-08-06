@@ -95,7 +95,7 @@ footer{
   width: 400px;
   height: auto;
   display: block;
-  margin-top: -50px;
+  margin: 0 auto;
 }
 h4{
   font-family: 'MonteCarlo', cursive;
