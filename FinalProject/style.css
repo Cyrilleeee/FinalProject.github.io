@@ -92,10 +92,11 @@ footer{
   letter-spacing: 3px;
 }
 .logo{
-  width: 400px;
+  width: 200px;
   height: auto;
   display: block;
   margin: 0 auto;
+  margin-top: -50px;
 }
 h4{
   font-family: 'MonteCarlo', cursive;
