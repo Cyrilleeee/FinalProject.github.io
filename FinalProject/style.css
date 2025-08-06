@@ -20,14 +20,14 @@ h1{
 }
 .navbar {
   margin: 10px;
-  padding: 1px
-   background-color: #fbefd0;
+  padding: 1px;
+  background-color: #fbefd0;
 }
 .nav-link{
   font-family: 'Luxurious Roman', cursive;
   font-size: 25px;
   color: #848FA5;
-   background-color: #fbefd0;
+  background-color: #fbefd0;
 }
 .nav-link:hover{
   color: #081770;
@@ -35,7 +35,7 @@ h1{
 #img1{
   float: left;
   margin-right: 30px;
-  margin-left: 100px
+  margin-left: 20px;
   margin-bottom: 10px;
   width: auto;
   height: 500px;
@@ -102,7 +102,7 @@ h4{
   font-weight: bold;
   text-align: center;
   font-size: 35px;
-  color: #848FA5;
+  color: #081770;
   margin: 20px 0 10px 0;
 }
 h5{
@@ -116,4 +116,130 @@ h5{
   border-bottom: 2px solid #848FA5;
   width: 100%;
   margin: 300px 0 20px 0;
+}
+
+.apollo-img-float {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border: 8px solid #800020;
+  border-radius: 25px;
+}
+.links{
+  color: #081770;;
+  text-decoration: none;
+}
+.links:hover{
+    color: #848FA5;
+  }
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 20px;
+  color: #848FA5;
+  margin-right: 20px;
+  text-align: center;
+}
+.label{
+  font-weight: bold;
+  color: #081770;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.skills-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+#scrollToTopBtn {
+  position: fixed;          
+  bottom: 30px;             
+  right: 50px;              
+  background-color: #800020;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  z-index: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #a02030;
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  } 
+  h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+  }  
+  h2 {
+    font-size: 28px;
+    flex-direction: column;
+    text-align: center;
+  }
+  h4 {
+    font-size: 28px;
+  } 
+  h5 {
+    font-size: 24px;
+  } 
+  #img1, #img2 {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .apollo-img-float {
+    float: none;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+  p {
+    font-size: 18px;
+    margin-right: 0;
+    text-align: justify;
+  }
+  .logo {
+    width: 280px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+  .separator {
+    margin: 40px 0 20px 0;
+  }
 }
