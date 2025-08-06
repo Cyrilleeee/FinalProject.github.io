@@ -5,67 +5,81 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Cyrille Candelaria</title>
+  <link rel="icon" href="photos/cyrillenoms.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=MonteCarlo&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
 </head>
 
 <body>
    
-<h1 class="mt-5">Cyrille Candelaria</h1>
+<h1 data-aos="fade-up" class="mt-5">Cyrille Candelaria</h1>
 
-  <nav class="navbar">
+  <nav data-aos="fade-up" class="navbar">
     <div class="container justify-content-center">
 <ul class="navbar-nav flex-row">
-      <li class="nav-item mx-3"> <a class="nav-link" aria-current="page" href="index.html"">About Me</a>
-      </li>
-      <li class="nav-item mx-3"> <a class="nav-link" href="thismonth.html">Food Blog</a>
-      </li>
-    </ul>
-  </div>
+        <li class="nav-item mx-3"> <a class="nav-link" aria-current="page" href="index.html">About Me</a>
+        </li>
+        <li class="nav-item mx-3"> <a class="nav-link" href="thismonth.html">Food Blog</a>
+        </li>
+      </ul>
     </div>
+  </nav>
     
   <main class="container mt-5">
     <div class="About Me">
-      <img src="photos/IMG_3360.png" class="rounded" alt="Cyrille1" id="img1">   
-      <h2>Biography</h2>
+      <img src="photos/IMG_3360.png" class="rounded" alt="Cyrille1" id="img1" data-aos="fade-up">   
+      <h2 data-aos="fade-in">Biography</h2>
       <br>
-      <p>
-        Hello there!
+      <p data-aos="fade-in">
+        Hello there! ૮ ˶ᵔ ᵕ ᵔ˶ ა
         <br><br>
         I'm Cyrille Candelaria, a high school senior at Union Square Academy for Health Sciences. I am a Filipina born in the Philippines and moved to NYC when I was eight years old. I'll be turning 18 this November.
          <br><br>
-        I am a food enthusiast and love to bake. I also love to travel and explore new places. I am currently learning how to code and I am excited to see where this journey will take me.
+        I am a food enthusiast and going around NYC to try out new food spots is my number one hobby. Its a great way to explore the city and try out new foods. I have a food blog where I review the food and experience at the location. Check it out <a href="thismonth.html" class="links">Here!</a>
       </p>
-      <h2>Experience</h2>
+      <h2 data-aos="fade-in">Experience</h2>
       <br>
-      <p>
-      I am in a CTE program at my school training to become a pharmacy technician. I also currently work at a pharmacy as a part-time job, which I started in my sophmore year. Combining school and work, I am able to learn more about medicine and pharmacy 
+      <p data-aos="fade-in">
+      I am in a career and technical education program at my school training to become a pharmacy technician. I also currently work at a pharmacy part-time, which I started in my sophmore year. Combining school and work, I am able to learn more about the medical field. 
         <br><br>
         I am also a coding fellow at The Knowledge House, participating in a year long project-based fellowship. It’s my first tech/coding experience in which I learn the basics of HTML, CSS, and Java Script. I developed this website and my Food Blog as my projects. I am excited to see where this journey will take me.
+        <div class="skills-row" data-aos="fade-in">
+        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/167_Html5_logo_logos-512.png" alt="html" class="skills-icon">
+        <img src="https://img.icons8.com/?size=512&id=21278&format=png" alt="css" class="skills-icon">
+        <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="js" class="skills-icon">
+        </div>
       </p>
-      <img src="photos/IMG_5061.png" class="rounded" alt="Cyrille2" id="img2"> 
-      <h2>Mission</h2>
+      <img src="photos/IMG_5061.png" class="rounded" alt="Cyrille2" id="img2" data-aos="fade-up"> 
+      <h2 data-aos="fade-in">Mission</h2>
       <br>
-      <p>
+      <p data-aos="fade-in">
       Ever since I was a young kid, I’ve always wanted to become a doctor. In particular, I aspire to become a cardiologist. I find the heart to be the most interesting organ. However, I also want to combine my interest for technology at the same time. Tech and healthcare go hand-in-hand, and it is a field that will only grow from now. I hope to be a part of the journey. 
         <br><br>
         I will be graduating in June 2026 and will be attending college in the fall. I'm currently looking for colleges that offer bio-tech majors. I am also looking for internships in the healthcare field.
-      </p>
-      
+      </p> 
+    </div>
     </div>
   </main> 
 
     <footer class="footer py-3">
       <div class="container">
-        <span class="text-muted"> Cyrille Candelaria</span>
+        <img
+        <span class="text-muted"> © 2025 Cyrille Candelaria </span>
+        <a href="https://www.instagram.com/kyrilllee_/" target="_blank" class="social-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/500px-Instagram_icon.png" alt="Instagram" class="social-icon">
+          </a>
       </div>
     </footer>
-    
-  <script src="script.js"></script>
+
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
