@@ -242,4 +242,18 @@ ul{
   .separator {
     margin: 40px 0 20px 0;
   }
-}
+  .text-center {
+    text-align: center !important;
+  } 
+  .apollo-img-float,
+  .headrest-content img,
+  .dolly-content img,
+  .clintonst-content img {
+    margin: 20px auto !important;
+    display: block !important;
+  }
+  .headrest-content,
+  .dolly-content,
+  .clintonst-content {
+    text-align: center;
+  }
