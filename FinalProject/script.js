@@ -4,7 +4,7 @@ AOS.init({
 });
 window.onscroll = function() {
 const btn = document.getElementById("scrollToTopBtn");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     btn.style.display = "block";
   }
   else {
