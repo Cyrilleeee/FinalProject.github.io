@@ -242,3 +242,50 @@ ul{
   .separator {
     margin: 40px 0 20px 0;
   }
+
+  .headrest-content,
+  .dolly-content,
+  .clintonst-content,
+  .goldendiner-content {
+    text-align: center;
+  }
+
+  .This.Month,
+  .Bakeries,
+  .Cafès,
+  .Restaurants {
+    text-align: center;
+    width: 100%;
+  }
+
+  main.container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  header {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .logo {
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .navbar .container {
+    text-align: center;
+  }
+
+  ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  div[class*="content"] {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
